@@ -1,0 +1,73 @@
+* {
+    font-family: 'Raleway', sans-serif; 
+}
+
+body {
+    background-color: #eae6da;
+    color: #525252;
+}
+h5, h1 ,h2 ,h3, h4 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+/* Karusellstyling*/
+#carouselHero .carousel-item img  {
+    /*FIXAR RESPONSIVITET PÅ BILDER*/
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+  }
+  #carouselHero .carousel-item:before { 
+    /*SVART GRADIENT ÖVER BILD PÅ KARUSELL*/
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+.sortiment-rubrik-container {
+    margin-top: 1.5rem;
+    height: 4rem;
+}
+
+.sortiment-area {
+    margin-left: auto;
+    margin-right:auto;
+    min-width: 50%;
+    justify-content: center;
+    
+  }
+
+  .slurp {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  
+  }
+  .main2-sortimet-title {
+      display:flex;
+    }
+    .main2-sortimet-title:before, .main2-sortimet-title:after {
+      content:'';
+      flex:1;
+      border-bottom:solid 2px;
+      border-color: rgb(179, 179, 179);
+      margin:auto ;
+    }
+
+.hej-butiken {
+    height: 20rem;
+}
+.hej-nyheter-flex {
+    display: flex;
+    flex-direction: column;
+}

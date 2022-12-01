@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Karusell-sortiment-styling.css">
+    <link rel="stylesheet" href="/sortiment.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/header-style.css">
+    <script src="https://kit.fontawesome.com/7a7b33cc9d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <header> <!--Header-->
+    <div class="header-container">
+      <div class="header-text">
+        <h1 class="rubrik">Butik Monika</h1>
+        <p class="breadtext">Mode bleknar stil består.</p>
+      </div>
+      <div class="header-nav breadtext">
+        <nav>
+          <div class="dropdown meny">
+            <button class="btn btn-secondary dropdown-toggle knapp" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="index.html">Hem</a></li>
+              <li><a class="dropdown-item" href="#">Kläder</a></li>
+              <li><a class="dropdown-item" href="märken.html">Våra märken</a></li>
+              <li><a class="dropdown-item" href="om.html">Om oss</a></li>
+            </ul>
+          </div>
+          <ul>
+            <li><a href="index.html" class="header-aktiv">Hem</a></li>
+            <li>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle knapp" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kläder
+            </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Tröjor</a></li>
+            <li><a class="dropdown-item" href="#">Klänningar</a></li>
+            <li><a class="dropdown-item" href="#">Byxor</a></li>
+          </ul>
+          </div>
+            </li>
+            <li><a href="märken.html">Våra märken</a></li>
+            <li><a href="om.html">Om oss</a></li>
+          </ul>
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-secondary dropdown-toggle knapp" data-bs-toggle="dropdown" aria-expanded="false">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <input type="text" placeholder="Sök..." class="header-search">
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>        
+  </header>
+  <div id="carouselHero" class="carousel slide" data-bs-ride="true"> <!-- karusell-->
+    <div class="carousel-inner karusell-1">
+        <div class="carousel-item karusell-bild active "> <!--slide-1-->
+          <img src="/naturliga-material-karusell.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h4>Naturliga material</h4>
+            <p class="d-none d-sm-block">Vi fokuserar på kläder gjorda naturmaterial som ull, bomull och lin </p> <!--syns ej vid mobil-->
+          </div>
+        </div>
+        <div class="carousel-item karusell-bild"> <!--slide-2-->
+          <img src="/design-karuell-bild.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h4>Vacker design</h4>
+            <p class="d-none d-sm-block">Kläder utformade av duktiga designers med höga kvalitetskrav</p> <!--syns ej vid mobil-->
+          </div>
+        </div>
+        <div class="carousel-item karusell-bild"><!--slide-3-->
+          <img src="/sewing-machine-karusell.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h4>Monikas Syateljé</h4>
+            <p class="d-none d-sm-block">Vi erbjuder personlig anpassning av plagg, av utbildad sömmerska</p> <!--syns ej vid mobil-->
+          </div>
+        </div>
+        <!--slide-control-buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  </div>
+  <div class="container sortiment-rubrik-container">  <!-- sortiment-rubrik-->
+    <div class="sortiment-area">
+        <div class="slurp">
+          <h2 class="main2-sortimet-title" style="color: rgb(153, 153, 153);">Sortiment</h2>
+        </div>
+    </div>
+  </div>
+  <div class="container sortiment-pictures"> <!-- sortiment-bilder-->
+    <div class="row row-cols-2  row-cols-lg-3 g-3" id="sortiment-hero">
+            <div class="col ">
+                <div class="card .h-100 ">
+                  <img src="/amanda-kelly-P9QYCWZtE_4-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                  <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                      <h3 style="color: white;">Klänningar</h3>
+                  </div>
+            
+                </div>
+              </div>
+            <div class="col">
+                <div class="card .h-100">
+                  <img src="/roman-holoschchuk-zHHtOf92CC4-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                  <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                      <h3 style="color: rgb(255, 255, 255);">Tröjor</h3>
+                   </div>
+                </div>
+              </div>
+            <div class="col">
+                <div class="card .h-100">
+                  <img src="/marcel-strauss-hwLiTFTGJCY-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                  <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                      <h3 style="color: white;">Jackor</h3>
+                   </div>
+                </div>
+              </div>
+            <div class="col">
+                <div class="card .h-100">
+                  <img src="/sergi-dolcet-escrig-gBL5-6Ijpqs-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                  <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                      <h3 style="color: white;">Byxor</h3>
+                   </div>
+                </div>
+              </div>
+            <div class="col">
+                <div class="card .h-100">
+                  <img src="/tamara-bellis-GRfLA7aXlO4-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                  <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                      <h3 style="color: rgb(255, 255, 255);">Kjolar</h3>
+                   </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card .h-100">
+                <img src="/sepideh-doost-_9x9XzCAkW8-unsplash.jpg" class="card-img-top" alt="Skyscrapers">
+                <div class="card-img-overlay text-center d-flex flex-column justify-content-end sortiment-pic-card-overlay">
+                    <h3 style="color: white;">Accessoarer</h3>
+                 </div>
+              </div>
+            </div>
+    </div> 
+  </div>
+  <div class="container mt-4 hej-nyheter-kort mb-4"> <!--Nyheter-kort-->
+    <h2 class="text-center "> Nyheter i butiken </h2>
+    <div class="card" >
+      <div class="row g-0">
+        <div class="col d-none d-xl-block ">
+          <img src="/annie-spratt-Zsb0Lk7jaxg-unsplash (1).jpg" class="img-fluid rounded-start nyheter-bild" alt="...">
+        </div> <!--Nyheter-bild, endast synlig på xl skärmar.-->
+        <div class="col-12 col-xl-8 hej-nyheter-flex">
+          <div class="card-body border-bottom">
+            <h5 class="card-title">Tillfälliga öppettider vecka 42</h5>
+            <p class="card-text"> Vecka 42 kommer butiken endast ha öppet på onsdag, pga ledighet. </p>
+            <p class="card-text"><small class="text-muted">17 september 2022</small></p>
+          </div>
+          <div class="card-body border-bottom">
+            <h5 class="card-title">Höstnyheter</h5>
+            <p class="card-text">Nya Jackor och varma halsdukar har kommit!</p>
+            <p class="card-text"><small class="text-muted">4 september 2022</small></p>
+          </div>
+          <div class="card-body border-bottom">
+            <h5 class="card-title">Sommarens badkläder är här!</h5>
+            <p class="card-text">Nya sommarklänningar från guccio på lager nu! </p>
+            <p class="card-text"><small class="text-muted">22 juni 2022</small></p>
+          </div>
+          <div class="card-body border-bottom">
+            <h5 class="card-title">Corona öppettider</h5>
+            <p class="card-text">Nu har butiken öppnat som vanligt igen efter Corona! Välkommen tillbaka!</p>
+            <p class="card-text"><small class="text-muted">13 april 2022</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class=" text-center text-lg-left border border-white mt-xl-5 pt-4 hej-footer "> <!--Footer-->
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-uppercase mb-4 hej-footer-rubrik">Adress</h5>
+                <ul class="list-unstyled mb-4">
+                  <li>
+                    <span>Butik Monika</span>
+                  </li>
+                  <li>
+                      <span>Arosgatan 1</span>
+                  </li>
+                  <li>
+                    <span>416 56 Göteborg</span>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4 hej-footer-rubrik">Öppettider</h5>
+                  <table class="table text text-white table-border">
+                    <tbody class="fw-normal">
+                      <tr>
+                        <td>Tisdag</td>
+                        <td>13.00-18.00</td>
+                      </tr>
+                      <tr>
+                        <td>Onsdag</td>
+                        <td>13.00-18.00</td>
+                      </tr>
+                      <tr>
+                        <td>Torsdag</td>
+                        <td>13.00-18.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+       
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ">
+                  <h5 class="text-uppercase mb-4 hej-footer-rubrik ">Följ oss</h5>
+                  <!-- Facebook -->
+                  <a
+                     class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                     style="background-color: #3b5998"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-facebook-f hej-footer-icon-icon"></i
+                    ></a>
+      
+                  <!-- Twitter -->
+                  <a
+                     class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                     style="background-color: #55acee"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-twitter hej-footer-icon-icon"></i
+                    ></a>
+      
+                  <!-- Google -->
+                  <a
+                     class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                     style="background-color: #333030"
+                     href="#!"
+                     role="button"
+                     ><i class="fa-brands fa-tiktok"></i>
+                    </a>
+      
+                  <!-- Instagram -->
+                  <a
+                     class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                     style="background-color: #dd5779"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-instagram hej-footer-icon-icon"></i
+                    ></a>
+  
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-uppercase mb-4 hej-footer-rubrik">Kontakta oss</h5>
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Email address</label>
+                </div>
+                <form>
+                  <label class="form-label" for="meddelande">Meddelande</label>
+                  <textarea name="meddelande" id="" cols="30" rows="4" placeholder="skriv här">
+                    
+                  </textarea>
+                  
+                  <input type = "submit" value = "skicka" />
+               </form>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="text-center p-3 border-top border-white">
+            © 2022
+            <a class="text-white" href="https://mdbootstrap.com/">Monikasbutik.se</a>
+          </div>
+          <!-- Copyright -->
+  </footer>
+    
+
+</div>
+
+
+</body>
+
+
+
+</html>
